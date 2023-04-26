@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+  margin: 0;
+  border: none;
+  font-family: 'Sigmar', cursive;
+  background-color:  #f1f1f1
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.cabecalho{
+  color: #DF7DA6;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color:  #f1f1f1
+}
+
+.main-box{
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.box{
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 5px 20px 5px;
+  background-color:  #f1f1f1
+  
+}
+button{
+  background-color: #A9B388;
+  border-radius: 10px;
+  border: none;
+  color: #322d31;
+  font-family: 'Sigmar', cursive;
+  padding: 10px;
+}
+
+.none {
+  display: none;
+}
+li {
+  list-style: none;
+  
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
